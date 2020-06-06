@@ -423,11 +423,11 @@ text-transform: uppercase;
 }
 .alm3  {
    float:left;
-            margin-left: 100px;
+          
 }
 .alm4 {
    float:left; 
-    margin-left: 40px;
+   
         
 }
 .alm1text {
@@ -460,8 +460,10 @@ text-transform: uppercase;
         line-height: 65px;
 }
 .almostfooter {
-        padding-top: 123px;
-    height: 459px;
+        margin-top: 100px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .alm1textt {
     width: 427px;
@@ -496,16 +498,19 @@ display: flex;
 .footericon a{
     text-decoration: none;
     color: inherit;
+    margin-right: 10px;
+    margin-bottom: 25px;
 }
 .footertext {
     float: left;
+    margin-left: -10px;
 }
 .footer {
       height: 79px;
 background-color: #e6e6e6;
 }
 .ffooter {
-        margin-top: 20px;
+        margin-top: 10px;
     color: #7a7a7a;
     height: inherit;
     display: flex;
@@ -521,7 +526,7 @@ background-color: #e6e6e6;
 }
 
 .footericon {
-        margin-left: 690px;
+        margin-left: 700px;
     padding-top: 15px;
 }
 .ah {
@@ -585,6 +590,8 @@ text-transform: uppercase;
     width: 1139px;
     justify-content: space-between;
     margin-top: 43px;
+        padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
 }
 .mango {
     width: 281px;
@@ -602,6 +609,8 @@ font-size: 13px;
 font-weight: 700;
 line-height: 20px;
 text-transform: uppercase;
+        padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
 }
 .mangtext {
     color: #222222;
@@ -609,6 +618,8 @@ font-family: Lato;
 font-size: 13px;
 font-weight: 400;
 text-transform: uppercase;
+    
+    margin-top: 13px;
 }
 .mangcol {
    color: #6f6e6e;
@@ -616,6 +627,7 @@ font-family: Lato;
 font-size: 13px;
 font-weight: 300;
 line-height: 20px; 
+        margin-top: 30px;
 }
 .mangsize {
     color: #6f6e6e;
@@ -630,10 +642,10 @@ line-height: 20px;
     justify-content: space-between;
 }
 .quant {
-    width: 54px;
 height: 30px;
-border: 1px solid #eaeaea;
-background-color: #ffffff;
+    text-align: center;
+        width: 54px;
+    border: 1px solid #eaeaea;
     text-align: center;
 }
 .z1 {
@@ -659,7 +671,7 @@ background-color: #ffffff;
     padding-top: 20px;
 }
 .quant {
-    padding-top: 20px;
+    margin-top: 10px;
 }
 .ship {
     padding-top: 20px;
@@ -812,4 +824,213 @@ text-transform: uppercase;
 }
 butsub:active {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+carousel slide {
+    background-color: #f7f7f7;
+}
+.card-body {
+     margin-top: -75px;
+    width: 1141px;
+    height: 730px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: colum
+}
+.brit {
+    margin-top: -75px;
+    width: 1141px;
+    height: 730px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card-title {
+    color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+    margin-top: 73px;
+}
+.card-title2 {
+    color: #4d4d4d;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+    margin-top: 17px;
+}
+.card-text {
+    color: #5e5e5e;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+    width: 618px;
+    height: 60px;
+    margin: auto;
+        margin-top: 67px;
+}
+.material {
+    color: #2f2f2f;
+    
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+      margin-left: 44px;
+}
+.material span {
+    color: #b9b9b9;
+}
+.materiall {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.dropdownmine {
+     display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: auto;
+}
+.droooop {
+        margin-right: -50px;
+}
+.a1 {
+       margin-left: 54px;
+}
+.j1 {
+    width: 144px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-price {
+        color: #ef5b70;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 37px;
+        margin-left: 20px;
+}
+.t222 {
+    width: 63px;
+height: 1px;
+background-color: #efefef;
+}
+.botpoloska {
+    display: flex;
+    justify-content: center
+}
+.t111 {
+       width: 63px;
+height: 3px;
+background-color: #ef5b70;
+}
+.lll {
+        width: 537px;
+    height: 55px;
+    border: 1px solid #ef5b70;
+    background-color: #ffffff;
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 303px;
+    margin-bottom: 120px;
+}
+.youmayalsolikephoto {
+   margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.youuuf {
+    width: 264px;
+    height: 370px;
+}
+.you1 {
+    height: 280px;
+    position: relative;
+    border-right-color: #efefef;
+}
+.you2 {
+    padding: 15px;
+}
+.y2 {
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.y22 {
+   color: #f16d7f;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase; 
+}
+.dark {
+    height: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+}
+.dark button {
+    padding: 15px;
+    border: 1px solid #ffffff;
+    background: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.youimage {
+        width: 100%;
+    display: block;
+    height: inherit;
+    object-fit: cover;
+    object-position: center center;
+}
+.you1:hover .dark {
+   height: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+     padding: 15px;
+    border: 1px solid #ffffff;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.youmayalsoliketext {
+    color: #4d4d4d;
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+    text-align: center;
+    margin-top:119px;
+    margin-bottom: 72px;
 }
